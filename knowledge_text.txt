@@ -1,0 +1,7 @@
+1. component manages the execution of .net program : Common Language Runtime
+CLR is the basic and Virtual Machine component  (run time environment) of the .NET Framework.
+
+2. values that do not change throughout application : constants (memory and address in fixed)
+3. type conversion possible : smaller to bigger datatype (like from int to string )
+4. interval between two time period : time span (date and time is passed)
+5. operations by string object : creating strings 
