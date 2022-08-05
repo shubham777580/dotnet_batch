@@ -17,18 +17,18 @@ class Program
         Console.WriteLine("Enter the width of rectangle: ");
         int width_of_rect = Convert.ToInt32(Console.ReadLine());
 
-        area_class obj = new area();
+        //area_class obj = new area();
 
-        int square_area_variable = obj.area(side_of_square);
+        int square_area_variable = method_overloading.area_class.area(side_of_square);
         Console.WriteLine("Area of square is : " + square_area_variable );
 
-        int rectangle_area_variable = obj.area(len_of_rect, width_of_rect);
+        int rectangle_area_variable = method_overloading.area_class.area(len_of_rect, width_of_rect);
          Console.WriteLine("Area of rectangle is : " +rectangle_area_variable);
     }
 }
 
         
-        class area_class
+        public static class area_class
         {
 
         
