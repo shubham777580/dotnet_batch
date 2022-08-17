@@ -1,6 +1,5 @@
-Teacher ID : 100, Name : Shubham Mukherjee, Class : 1-A
 Teacher ID : 200, Name : Sumit Rana, Class : 1-B
 Teacher ID : 300, Name : Satvik Ghosh, Class : 1-D
 Teacher ID : 400, Name : Sahil sir, Class : 1-E
 
-Teacher ID : 1001, Name : D Mukherjee, Class : 10-B
+Teacher ID : 5000, Name : Pradeep Sir, Class : 10-B
