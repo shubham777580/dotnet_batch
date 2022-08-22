@@ -1,0 +1,19 @@
+/* Using para element, element selector */
+p {
+    color :red;
+}
+
+/* Using id selector */
+
+#para_id1{
+    color : blue;
+}
+
+.pinkclass{
+    background-color: pink;
+}
+
+/* Multi element sleector */
+header, footer {
+    background-color: aqua;
+}
