@@ -9,7 +9,14 @@ class Brake extends React.Component {
         this.state = {make : "Ford"};
         this.state = {model : "Ford"};
         this.state = {brand : "TATA"};
+        
     }
+
+     Brake_fn(){
+        return <p>
+            Calling function made in brake.js : yes
+          </p>
+      }
 
     render()
     {
@@ -17,6 +24,7 @@ class Brake extends React.Component {
             <div>
                 <h1>Brake is applied to : My Car {this.state.brand}</h1>
             </div>
+            
         )
     }
 }
