@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Car from './Car';
+import Brake from './Brake';
 import Engine from './Engine';
 import reportWebVitals from './reportWebVitals';
 
@@ -13,6 +14,7 @@ root.render(
     <Engine />
     <Car />
     <App />
+    <Brake />
   </React.StrictMode>
 );
 
