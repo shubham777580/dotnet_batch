@@ -5,6 +5,8 @@ import App from './App';
 import Car from './Car';
 import Brake from './Brake';
 import Engine from './Engine';
+import School from './School';
+import Comp from './Comp';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -15,6 +17,8 @@ root.render(
     <Car />
     <App />
     <Brake />
+    <School />
+    <Comp />
   </React.StrictMode>
 );
 

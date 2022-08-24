@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+
+    <style>
+
+        /* to add to all element : */
+        *{
+            /* to keep width constant and ary padding, use box-sizing: ; */
+            box-sizing: border-box;
+
+        }
+
+        body{
+            background-color: #d1f5f5;
+        }
+
+        .container{
+            background-color: rgb(255 218 173);
+            border : 3px solid rgb(4 106 177);
+             /* space betweeen border and text */
+             padding: 19px;
+             /* padding directions can be given */
+
+             /* border outside the border */
+             margin : 20px 30px 40px 30px ; /*top right bottom left*/
+
+             border-radius: 10px;
+             width: 6in;
+
+             float: left;
+             width: 24%;;
+
+             
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>This is Heading</h3>
+        <p id="para_first">This is first para</p>
+    </div>
+
+    <div class="container">
+        <h3>This is Heading</h3>
+        <p id="para_second">This is second para</p>
+    </div>
+
+    <div class="container">
+        <h3>This is Heading</h3>
+        <p id="para_third">This is third para</p>
+    </div>
+</body>
+</html>
