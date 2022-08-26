@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+@font-face {
+  font-family: pokemon_font;
+  src: url(PokemonSolidNormal.ttf);
+}
+.App {
+  display: flex;
+  justify-content: center;
+  font-family: pokemon_font;
+  flex-direction: column;
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+.Title_class{
+  /* font-family: 'DynaPuff', cursive;  */
+  background-color: #72FFFF;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  color: #5800FF
+}
+
+.Title_class input{
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #5800FF;
+  font-size: 18px;
+  padding-left: 20px;
+
+}
+
+.Title_class button{
+  margin: 10px;
+  font-family: pokemon_font;
+  color: #00D7FF;
+  background-color:  #5800FF;
+  border: 5px solid #00D7FF;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-left: 20px;
+
+}
+
+.Title_class button:hover{
+  color: #5800FF;
+  background-color:  #00D7FF;
+  border: 5px solid #5800FF;
+  cursor: pointer;
+}
+
+.DisplaySection{
+  font-family: 'DynaPuff', cursive; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+
+}
+
+.DisplaySection img {
+  width: 200px;
+}
+
