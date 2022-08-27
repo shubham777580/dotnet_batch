@@ -29,7 +29,7 @@ const Home = () => {
     return (
         <div className='container'>
             <div className='py-4'>
-                <h1>Home Page</h1>
+                <h1 className="m-4 p-3 text-center" >Home Page</h1>
 
                 {/* adding table for display in home page */}
 
@@ -38,8 +38,8 @@ const Home = () => {
                         <tr>
                             <th scope="col">#ID</th>
                             <th scope="col">Event Name</th>
-                            <th scope="col">User Name</th>
-                            <th scope="col">Email</th>
+                            <th scope="col">Event Location</th>
+                            <th scope="col">Contact Email</th>
                             <th scope="col">Action</th>
                         </tr>
                     </thead>
@@ -51,7 +51,7 @@ const Home = () => {
                             <tr>
                             <th scope="row">{index + 1}</th>
                             <td>{user.name}</td>
-                            <td>{user.username}</td>
+                            <td>{user.location}</td>
                             <td>{user.email}</td>
                             <td>
                             <Link className="btn btn-info m-2" to = {`/users/${user.id}`}>View Event</Link>

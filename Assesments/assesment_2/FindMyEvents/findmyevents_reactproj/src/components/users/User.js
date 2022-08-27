@@ -5,9 +5,9 @@ import axios from "axios";
 const User = () => {
   const [user, setUser] = useState({
     name: "",
-    username: "",
+    location: "",
     email: "",
-    phone: "",
+    description: "",
     webiste: ""
   });
   const { id } = useParams();
@@ -23,16 +23,56 @@ const User = () => {
       <Link className="btn btn-primary" to="/">
         back to Home
       </Link>
-      <h1 className="display-4">User Id: {id}</h1>
+      <h1 className="display-4 mb-20">User Id: {id}</h1>
       <hr />
-      <ul className="list-group w-50">
-        <li className="list-group-item">name: {user.name}</li>
-        <li className="list-group-item">user name: {user.username}</li>
-        <li className="list-group-item">email: {user.email}</li>
-        <li className="list-group-item">phone: {user.phone}</li>
-        <li className="list-group-item">website: {user.website}</li>
-      </ul>
+      
+
+      <table class="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col" className="bg-primary">#</th>
+            <th scope="col" className="bg-primary">Event field</th>
+            <th scope="col" className="bg-primary">Event Data</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Event name: </td>
+            <td>{user.name}</td>
+
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Location of Event : </td>
+            <td> {user.location}</td>
+
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Contact  email : </td>
+            <td>{user.email}</td>
+
+          </tr>
+
+          <tr>
+            <th scope="row">4</th>
+            <td>Event Description  : </td>
+            <td>{user.description}</td>
+          </tr>
+
+          <tr>
+            <th scope="row">5</th>
+            <td>Event Image: </td>
+            <td><img src={user.website}></img></td>
+          </tr>
+
+        </tbody>
+      </table>
+
     </div>
+
   );
 };
 

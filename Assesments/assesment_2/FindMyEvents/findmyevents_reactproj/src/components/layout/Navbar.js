@@ -25,7 +25,7 @@ const Navbar = () => {
 
                 </div>
 
-                <Link className="btn btn-primary" to='/users/add' >Add User</Link>
+                <Link className="btn btn-primary" to='/users/add' >Add An Event</Link>
 
 
             </div>

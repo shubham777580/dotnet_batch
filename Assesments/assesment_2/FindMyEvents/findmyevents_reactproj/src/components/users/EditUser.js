@@ -9,14 +9,14 @@ const EditUser = () => {
   const { id } = useParams();
   const [user, setUser] = useState({
     name: "",
-    username: "",
+    location: "",
     email: "",
-    phone: "",
+    description: "",
     website: ""
   });
 
   //destructing the objects returning to user
-  const { name, username, email, phone, website } = user;
+  const { name, location, email, description, website } = user;
 
   //to save form data to local variables using oninputchange fn:
   //using spread operator ...user to preserve realtime past data
@@ -43,13 +43,13 @@ const EditUser = () => {
   return (
     <div className="container">
       <div className="w-75 mx-auto shadow p-5">
-        <h2 className="text-center mb-4">Edit A User</h2>
+        <h2 className="text-center mb-4">Edit An Event</h2>
         <form onSubmit={e => onSubmit(e)}>
           <div className="form-group">
             <input
               type="text"
               className="form-control form-control-lg"
-              placeholder="Enter Your Name"
+              placeholder="Enter Event Name"
               name="name"
               value={name}
               onChange={e => onInputChange(e)}
@@ -59,9 +59,9 @@ const EditUser = () => {
             <input
               type="text"
               className="form-control form-control-lg"
-              placeholder="Enter Your Username"
-              name="username"
-              value={username}
+              placeholder="Enter Event Location"
+              name="location"
+              value={location}
               onChange={e => onInputChange(e)}
             />
           </div>
@@ -69,7 +69,7 @@ const EditUser = () => {
             <input
               type="email"
               className="form-control form-control-lg"
-              placeholder="Enter Your E-mail Address"
+              placeholder="Enter Contact E-mail Address"
               name="email"
               value={email}
               onChange={e => onInputChange(e)}
@@ -79,9 +79,9 @@ const EditUser = () => {
             <input
               type="text"
               className="form-control form-control-lg"
-              placeholder="Enter Your Phone Number"
-              name="phone"
-              value={phone}
+              placeholder="Enter Decription of event"
+              name="description"
+              value={description}
               onChange={e => onInputChange(e)}
             />
           </div>
@@ -89,13 +89,13 @@ const EditUser = () => {
             <input
               type="text"
               className="form-control form-control-lg"
-              placeholder="Enter Your Website Name"
+              placeholder="Enter Event image url"
               name="website"
               value={website}
               onChange={e => onInputChange(e)}
             />
           </div>
-          <button className="btn btn-warning btn-block">Update User</button>
+          <button className="btn btn-warning btn-block">Update Event</button>
         </form>
       </div>
     </div>

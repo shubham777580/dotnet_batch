@@ -8,6 +8,7 @@
       "description": "Date : 28/8/22,  Time : 5pm.   This event is about Dance. We cant wait to see all of our dancers take the stage to celebrate the end of the dance season. All of our dancers are invited to perform with their classes. Shows will be spread out over the weekend and dancers will be assigned to a specific show. ",
       "website": "https://source.unsplash.com/600x500/?dance"
     },
+
     {
       "id": 2,
       "name": "Singing Event",
@@ -16,6 +17,7 @@
       "description": "Date : 28/8/22,  Time : 5pm.   This event is about Singing. Many Famous Singers are going to attended this event. ",
       "website": "https://source.unsplash.com/600x500/?sing"
     },
+
     {
       "id": 3,
       "name": "Mobile Gaming PUBG tournament",
@@ -24,6 +26,7 @@
       "description": "Date : 28/8/22,  Time : 5pm.   This event is about mobile gaming tournament. Many Famous Players are going to participate in this event. ",
       "website": "https://imgs.search.brave.com/FYvvn6wISugfnXpiYiRmJw9sE8P3qHxgdAOIYO5079s/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Ev/QUFUWEFKeTRuUG9R/Y2ktNmU1NlFuR1Bf/am4tMExnSV93OHZC/a1R6U2F0akc9czkw/MC1jLWstYzB4ZmZm/ZmZmZmYtbm8tcmot/bW8"
     },
+
     {
       "id": 4,
       "name": "Bicycle Event",
@@ -32,6 +35,7 @@
       "description": "Date : 28/8/22,  Time : 5pm.   This event is about raising importance of health by bicycling and reliving the old days. Many Famous Celebrities are going to participate in this event. ",
       "website": "https://source.unsplash.com/600x500/?cycle"
     },
+
     {
       "id": 5,
       "name": "Mountain trek Event",
@@ -40,6 +44,7 @@
       "description": "Date : 28/8/22,  Time : 5pm.   This event is about raising importance of health by Mountain climbing and enjoying the vivid jungle view. Event handler is certified and carries first aid kit at any point of time. Book your dates",
       "website": "https://source.unsplash.com/600x500/?mountain"
     },
+
     {
       "id": 6,
       "name": "Chess Tournament Event",
@@ -48,13 +53,26 @@
       "description": "Date : 28/8/22,  Time : 5pm.   This event is about Chess Tournament Event. Many Famous Chess Players are going to participate in this event. ",
       "website": "https://source.unsplash.com/600x500/?chess"
     },
+
+    
     {
       "name": "Tree Plantation Event",
       "location": "Mumbai",
-      "email": "Sincere@april.biz",
+      "email": "shubhammukherjee370@gmail.com",
       "description": "Date : 28/8/22,  Time : 5pm.   This event is about Tree Plantation Event. Many Famous Environmentalist are going to participate in this event. ",
       "website": "https://source.unsplash.com/200x110/?tree",
       "id": 7
     }
+
+    {
+      "name": "Tree Plantation Event",
+      "location": "Mumbai",
+      "email": "shubhammukherjee370@gmail.com",
+      "description": "Date : 28/8/22,  Time : 5pm.   This event is about Tree Plantation Event. Many Famous Environmentalist are going to participate in this event. ",
+      "website": "https://source.unsplash.com/200x110/?tree",
+      "id": 7
+    }
+
+
   ]
 }
