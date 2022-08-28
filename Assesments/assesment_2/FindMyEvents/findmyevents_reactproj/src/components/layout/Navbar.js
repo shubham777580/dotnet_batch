@@ -1,6 +1,6 @@
 import React from 'react';
 
-//using Navlink of react router to not reload whenever linked press and to display the page we are on in the header
+//using Navlink of react router to not reload whenever linked press and to display the page we are on in the header (single page application)
 import { Link,NavLink } from 'react-router-dom';
 
 // functional bootstrap component from bootstrap documentation

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import {  useHistory, useParams } from "react-router-dom";
 
-const EditUser = () => {
+const EditEvent = () => {
   let history =  useHistory();
 
   //using params for id and ploting the corresponding data in input field
@@ -102,4 +102,4 @@ const EditUser = () => {
   );
 };
 
-export default EditUser;
+export default EditEvent;

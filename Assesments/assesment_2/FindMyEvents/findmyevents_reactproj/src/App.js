@@ -10,9 +10,9 @@ import {
   Switch,
   withRouter
 } from "react-router-dom";
-import AddUser from "./components/users/AddUser";
-import EditUser from "./components/users/EditUser";
-import User from "./components/users/User";
+import AddEvent from "./components/users/AddEvent";
+import EditEvent from "./components/users/EditEvent";
+import ViewEvent from "./components/users/ViewEvent";
 //switch matches url
 
 function App(props) {
@@ -25,11 +25,11 @@ function App(props) {
       <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
-      <Route exact path="/users/add" component={AddUser} />
+      <Route exact path="/users/add" component={AddEvent} />
 
         {/* pasing id for dynamic routing */}
-        <Route exact path="/users/edit/:id" component={EditUser} />
-        <Route exact path="/users/:id" component={User} />
+        <Route exact path="/users/edit/:id" component={EditEvent} />
+        <Route exact path="/users/:id" component={ViewEvent} />
  
       </Switch>
       

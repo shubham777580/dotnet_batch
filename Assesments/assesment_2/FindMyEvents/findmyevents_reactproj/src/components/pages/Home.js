@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 //for pull requests, we are using axios
 import axios from 'axios';
 
-//for bootstrap jsx
 import { Link,NavLink } from "react-router-dom";
 
 const Home = () => {

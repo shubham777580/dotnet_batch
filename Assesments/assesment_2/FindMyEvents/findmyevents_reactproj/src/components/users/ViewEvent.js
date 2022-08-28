@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import axios from "axios";
 
-const User = () => {
+//declaring empty variables early for fetching data and fill the variables
+const ViewEvent = () => {
   const [user, setUser] = useState({
     name: "",
     location: "",
@@ -23,7 +24,7 @@ const User = () => {
       <Link className="btn btn-primary" to="/">
         back to Home
       </Link>
-      <h1 className="display-4 mb-20">User Id: {id}</h1>
+      <h1 className="display-4 mb-20">Event Id: {id}</h1>
       <hr />
       
 
@@ -76,4 +77,4 @@ const User = () => {
   );
 };
 
-export default User;
+export default ViewEvent;

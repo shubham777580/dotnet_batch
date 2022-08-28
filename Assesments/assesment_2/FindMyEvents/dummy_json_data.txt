@@ -65,7 +65,7 @@
     }
 
     {
-      "name": "Tree Plantation Event",
+      "name": "Chess Tournament Event",
       "location": "Mumbai",
       "email": "shubhammukherjee370@gmail.com",
       "description": "Date : 28/8/22,  Time : 5pm.   This event is about Tree Plantation Event. Many Famous Environmentalist are going to participate in this event. ",
