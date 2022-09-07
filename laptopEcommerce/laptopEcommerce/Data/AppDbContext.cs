@@ -32,7 +32,7 @@ namespace laptopEcommerce.Data
 
         public DbSet<Laptop_specs> laptop_Specs { get; set; }
 
-        public DbSet<Laptop_specs> laptop_Specs1 { get; set; }
+        public DbSet<Laptop_company> laptop_company_variable { get; set; }
 
     }
 }

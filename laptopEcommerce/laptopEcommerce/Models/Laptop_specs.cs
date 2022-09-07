@@ -30,10 +30,12 @@ namespace laptopEcommerce.Models
         public LaptopCategory LaptopCategory { get; set; }
 
         //Relationship
-        public Laptop_company laptop_Company { get; set; }
 
-        public Laptop_company Laptop_company_id { get; set; }
-        
+        public int Laptop_company_id { get; set; }
+        [ForeignKey("Laptop_company_id")]
+
+        public Laptop_company Laptop_company { get; set; }
+
 
 
     }

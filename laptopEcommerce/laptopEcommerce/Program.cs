@@ -1,4 +1,5 @@
 using laptopEcommerce.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,7 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 //for dbcontext
-IServiceCollection serviceCollection = builder.Services.AddDbContext<AppDbContext>();
+//usesqlserver function by framework core library
+IServiceCollection serviceCollection = builder.Services.AddDbContext<AppDbContext>
+    (options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 
 var app = builder.Build();
 
@@ -28,5 +31,8 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+//for giving database data (seeding) :
+AppDbInitializer.Seed(app);
 
 app.Run();
