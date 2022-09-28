@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.3.0" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\nunit_small_buisness_class_library\nunit_small_buisness_class_library.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="nunit_small_buisness_class_library">
+      <HintPath>..\nunit_small_buisness_class_library\bin\Debug\net6.0\nunit_small_buisness_class_library.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
