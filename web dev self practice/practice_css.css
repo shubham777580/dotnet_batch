@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@700&display=swap');
+/* to import from google fonts */
+
+/* Using para element, element selector */
+p {
+    color :red;
+    font-family: cursive;
+    font-size: 10px;
+    line-height: 8.3em; 
+}
+
+/* Using id selector */
+
+#para_id1{
+    color : rgba(190, 48, 48, 0.4)
+}
+
+.pinkclass{
+    background-color: pink;
+}
+
+/* Multi element sleector */
+header, footer {
+    background-color: aqua;
+}
+
+
+#para_id2{
+    font-family: 'DynaPuff', cursive;
+}
+
+#span_id1{
+    font-weight: bold;
+    
+}

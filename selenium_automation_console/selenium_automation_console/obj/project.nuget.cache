@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "/rrQIPQZ9NiXu7u6N5DjlvvLatLRIK73LKdCF1oVk1DF9pGLddlD6yA6uC/xZ6uucKCcCU0K0TGJQjfRuNFgxg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shubham.mukherjee\\Documents\\GitHub\\dotnet_batch\\selenium_automation_console\\selenium_automation_console\\selenium_automation_console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shubham.mukherjee\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\shubham.mukherjee\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\shubham.mukherjee\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\shubham.mukherjee\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\shubham.mukherjee\\.nuget\\packages\\nunittestadapter\\2.3.0\\nunittestadapter.2.3.0.nupkg.sha512",
+    "C:\\Users\\shubham.mukherjee\\.nuget\\packages\\selenium.webdriver\\4.4.0\\selenium.webdriver.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
