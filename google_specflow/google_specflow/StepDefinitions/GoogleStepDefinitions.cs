@@ -9,7 +9,7 @@ namespace google_specflow.StepDefinitions
     [Binding]
     public class GoogleStepDefinitions
     {
-       
+
 
         public SingleSteps()
         {
@@ -38,3 +38,4 @@ namespace google_specflow.StepDefinitions
             Assert.That(_driver.Title, Is.EqualTo(title));
         }
     }
+}
