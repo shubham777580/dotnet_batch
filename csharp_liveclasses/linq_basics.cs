@@ -26,4 +26,5 @@ static void Main()
     {
         Console.Write("{0,1} ", num);
     }
-}}
+}
+}
